@@ -65,8 +65,6 @@ console.log(ddiData[1]); // +1 North America
 | Function | Description | Return |
 | -------- | ----------- | ------ |
 | `getCountryByDDI(ddi: number or string)` | Returns a `Country` object for the given DDI | `Country` |
-| `searchByName(name: string, locale?: 'pt' end 'en')` | Search countries by name in given language | `Country[]` |
-| `getAllCountries()` | Returns all countries ordered by DDI | `Country[]` |
 
 ### Interface `Country`
 
