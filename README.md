@@ -86,14 +86,6 @@ interface Country {
 - Add support for special regions and territories
 - Utilities for phone number formatting
 
-## 🤝 Contributing
-
-1. **Fork** this repository  
-2. Create your branch: `git checkout -b feat/your-feature-name`  
-3. Commit your changes: `git commit -m "feat: your feature"`  
-4. Push to your branch: `git push origin feat/your-feature-name`  
-5. Open a Pull Request
-
 ## 👤 Author
 
 Created by **Amom Augusto**
