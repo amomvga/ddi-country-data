@@ -5,11 +5,10 @@
 ## ✨ Features
 
 - 🔢 Lookup by DDI (country calling code)
-- 🏳️‍🌈 Flag via emoji or image URL
+- 🏳️‍🌈 Flag via image URL
 - 🌍 Country name and continent available in **Portuguese (pt-BR)** and **English (en)**
 - 🛡️ Zero external dependencies
 - 📦 Lightweight (~70 kB)
-- 📝 MIT License
 
 ## 🚀 Installation
 
