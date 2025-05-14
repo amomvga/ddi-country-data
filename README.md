@@ -62,11 +62,11 @@ console.log(ddiData[1]); // +1 North America
 
 ## 🧩 API
 
-| Function | Description | Return |
-| -------- | ----------- | ------ |
-| `getCountryByDDI(ddi: number | string)` | Returns a `Country` object for the given DDI | `Country` |
-| `searchByName(name: string, locale?: 'pt' | 'en')` | Search countries by name in given language | `Country[]` |
-| `getAllCountries()` | Returns all countries ordered by DDI | `Country[]` |
+| Function                                  | Description                          | Return                                       |
+| ----------------------------------------- | ------------------------------------ | -------------------------------------------- | ----------- |
+| `getCountryByDDI(ddi: number              | string)`                             | Returns a `Country` object for the given DDI | `Country`   |
+| `searchByName(name: string, locale?: 'pt' | 'en')`                               | Search countries by name in given language   | `Country[]` |
+| `getAllCountries()`                       | Returns all countries ordered by DDI | `Country[]`                                  |
 
 ### Interface `Country`
 
@@ -75,21 +75,11 @@ interface Country {
   ddi: number;
   countryPt: string;
   countryEn: string;
-  img: string;        // URL flag
+  img: string; // URL flag
   continentPt: string;
   continentEn: string;
-  mask: string;       // phone format mask
+  mask: string; // phone format mask
 }
-```
-
-## 🛠️ Filter example by continent
-
-```ts
-import { getAllCountries } from 'ddi-country-data';
-
-const europe = getAllCountries().filter(
-  c => c.continentEn === 'Europe'
-);
 ```
 
 ## 🗺️ Roadmap
@@ -100,16 +90,12 @@ const europe = getAllCountries().filter(
 
 ## 🤝 Contributing
 
-1. **Fork** this repository  
-2. Create your branch: `git checkout -b feat/your-feature-name`  
-3. Commit your changes: `git commit -m "feat: your feature"`  
-4. Push to your branch: `git push origin feat/your-feature-name`  
+1. **Fork** this repository
+2. Create your branch: `git checkout -b feat/your-feature-name`
+3. Commit your changes: `git commit -m "feat: your feature"`
+4. Push to your branch: `git push origin feat/your-feature-name`
 5. Open a Pull Request
 
 ## 👤 Author
 
-Created with 💚 by **Amom Augusto**
-
-## 📄 License
-
-Distributed under the **MIT** license. See `LICENSE` for more information.
+Created by **Amom Augusto**
