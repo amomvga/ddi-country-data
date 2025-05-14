@@ -1,6 +1,14 @@
 {
   "name": "ddi-country-data",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "keywords": [
+    "ddi",
+    "country",
+    "phone",
+    "flag",
+    "continent",
+    "typescript"
+  ],
   "description": "TypeScript library mapping DDI codes to country data (names, flags, masks)",
   "type": "module",
   "main": "dist/index.js",
