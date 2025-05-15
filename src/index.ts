@@ -8,7 +8,7 @@ const ddiMap = new Map<string, CountryInfo>(
 export function getCountryByDDI(ddi: string | number): CountryInfo | null {
   const key = String(ddi).replace(/^\+/, '').replace(/^0+/, '');
 
-  return ddiMap.get(key) ?? null;
+  return ddiMap.get(key) || null;
 }
 
 export { CountryInfo, ddiData };
