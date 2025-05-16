@@ -1115,7 +1115,7 @@ export const ddiData: CountryInfo[] = [
     img: 'https:////upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/50px-Flag_of_Brazil.svg.png',
     continentPt: 'América',
     continentEn: 'Americas',
-    mask: '+55 (##) ####-####',
+    mask: '+55 (##) #####-####',
   },
   {
     ddi: '56',
