@@ -1052,7 +1052,7 @@ export const ddiData: CountryInfo[] = [
     img: 'https:////upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/50px-Flag_of_Panama.svg.png',
     continentPt: 'América',
     continentEn: 'Americas',
-    mask: '+507 ### ####',
+    mask: '+507 #### ####',
   },
   {
     ddi: '508',
