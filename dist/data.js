@@ -1518,7 +1518,7 @@ export const ddiData = [
         img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/50px-Flag_of_Kazakhstan.svg.png',
         continentPt: 'Ásia',
         continentEn: 'Asia',
-        mask: '+7 (7##) ### ## ##',
+        mask: '+7 (###) ### ## ##',
     },
     {
         ddi: '81',
